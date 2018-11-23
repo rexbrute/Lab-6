@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void latin(char a)
+{
+    for(a='A'; a<='Z'; a++)
+        printf("%c ", a);
+printf("\n");
+    for(a='a'; a<='z'; a++)
+        printf("%c ", a);
+}
+
+
+int main()
+{
+    char a;
+    latin(a);
+
+    printf("%3c", a);
+    return 0;
+}
